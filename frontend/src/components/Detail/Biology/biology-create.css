@@ -1,0 +1,163 @@
+.sign-button {
+    width: 6.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.975rem;
+    color: white;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+
+.sign-button:hover {
+    width: 6.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.975rem;
+    color: white;
+    background-color: #8F17FA;
+    border-radius: 7px;
+    border: none;
+}
+
+.Sign {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    padding: 40px;
+    transition: all .3s ease-in;
+    overscroll-behavior: contain;
+    overflow: scroll;
+}
+
+.displayNone {
+    opacity: 0;
+    z-index: -2;
+    pointer-events: none;
+    /* display: none; */
+}
+
+.sign-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px);
+}
+
+.sign-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    margin-bottom: 70px;
+}
+
+.sign-title {
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.sign-close {
+    cursor: pointer;
+}
+
+.sign-close .icon {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/*form*/
+.sign-form {
+    width: auto;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.checkbox-css {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    background-color: #888;
+}
+
+.btn {
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232323 !important;
+    color: #fff !important;
+    cursor: pointer;
+    font-size: 23px;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: #343434 !important;
+    color: #fff !important;
+}
+
+.btn-nothover {
+    background-color: #232323 !important;
+    color: #fff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-css {
+    outline: none;
+    border: none;
+    margin: 2px;
+    border-bottom: 2px #ddd solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    font-family: sans-serif;
+    /*border-radius: 7px;*/
+}
+
+.input-css:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px #ddd solid;
+}
+
+.flex-col {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.checkbox {
+    width: 7%;
+    float: left;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.remember-me {
+    width: 100%;
+    height: 100%;
+}
+
+.content-remember {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.forgot-password {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+}
